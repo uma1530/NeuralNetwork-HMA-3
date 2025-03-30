@@ -61,9 +61,9 @@ o	Use one-hot encoding or embeddings (Embedding() layer in Keras).
 o	Create input-output pairs for training (e.g., given "hell", predict "o").
 3.	Define an LSTM-based RNN
 o	Model structure:
-	Embedding() layer for character/word representation.
-	LSTM() layers for sequence modeling.
-	Dense() layer with softmax activation for next-character prediction.
+	Embedding() layer for character/word representation.
+ LSTM() layers for sequence modeling.
+	Dense() layer with softmax activation for next-character prediction.
 4.	Train the Model
 o	Loss: categorical_crossentropy
 o	Optimizer: adam
@@ -106,8 +106,8 @@ o	Generate a classification report (accuracy, precision, recall, F1-score).
 o	Precision: Percentage of predicted positives that are actual positives.
 o	Recall: Percentage of actual positives that are correctly predicted.
 o	Tradeoff:
-	If high precision is prioritized, recall may suffer.
-	If high recall is prioritized, more false positives may occur.
+	If high precision is prioritized, recall may suffer.
+	If high recall is prioritized, more false positives may occur.
 o	Important for applications like fraud detection (high recall needed) or spam detection (high precision needed).
 Key Insights:
 •	LSTM-based sentiment classifiers can outperform traditional methods like bag-of-words.
