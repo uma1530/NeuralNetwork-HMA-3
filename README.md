@@ -118,6 +118,15 @@ Final Takeaways:
 2.	RNNs (LSTMs) can model sequences, allowing text generation and sentiment classification.
 3.	Performance Metrics (e.g., loss, accuracy, precision-recall tradeoff) are crucial for evaluating models.
 4.	Hyperparameter Tuning (e.g., latent space size, LSTM units, temperature scaling) impacts model performance.
+Implementing an RNN for Text Generation
+
+Task: Recurrent Neural Networks (RNNs) can generate sequences of text. You will train an LSTM-based RNN to predict the next character in a given text dataset.
+
+1.	Load a text dataset (e.g., "Shakespeare Sonnets", "The Little Prince").
+2.	Convert text into a sequence of characters (one-hot encoding or embeddings).
+3.	Define an RNN model using LSTM layers to predict the next character.
+4.	Train the model and generate new text by sampling characters one at a time.
+5.	Explain the role of temperature scaling in text generation and its effect on randomness.
 
 
 
